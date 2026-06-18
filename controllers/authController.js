@@ -1,4 +1,4 @@
-const CustomerLot = require("../models/CustomerLot");
+const CustomerLot = require("../models/customerLot");
 
 const loginuser = async (req, res) => {
 
