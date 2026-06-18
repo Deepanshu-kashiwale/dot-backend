@@ -1,6 +1,6 @@
 
 const { DBFFile } = require("dbffile");
-const CustomerLot = require("../models/CustomerLot");
+const CustomerLot = require("../models/customerLot");
 
 async function syncMerged() {
 
