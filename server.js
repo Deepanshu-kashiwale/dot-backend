@@ -5,7 +5,7 @@ const express = require("express");
 const cors = require("cors");
 const mongoose = require("mongoose");
 
-const CustomerLot = require("./models/CustomerLot");
+const CustomerLot = require("./models/customerLot");
 const syncMerged = require("./services/syncMerged");
 const authRoutes = require("./routes/authRoutes");
 const dashboardRoutes = require("./routes/dashboardRoutes");
