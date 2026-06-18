@@ -1,0 +1,2 @@
+2026-06-18 18:17:37 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\DOT\dot-backend\node_modules\node-windows\lib\wrapper.js --file D:\DOT\dot-backend\server.js --scriptoptions= --log "DotPortalSync wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-06-18 18:17:37 - Started 2112

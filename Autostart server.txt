@@ -1,0 +1,74 @@
+1. npm install node-windows
+
+2. create file service.js -->
+////////////////////////////////
+	const Service = require("node-windows").Service;
+
+	const svc = new Service({
+	  name: "DotPortalSync",
+	  description: "DBF Sync Agent",
+	  script: "C:\\DotPortalSync\\server.js"
+	});
+
+	svc.on("install", function () {
+  	  svc.start();
+	});
+
+	svc.install(); 
+
+///////////////////////////////
+
+3. node service.js
+
+4. allow all
+
+5. to check process -> in cmd type services.msc
+	servide name "DotPortalSync will appear"
+
+6. we can stop it from there too but it will be temprory. 
+
+7. to permantly remove autostart -->
+	create file uninstall.js
+////////////////////////////////
+	const Service = require("node-windows").Service;
+
+	const svc = new Service({
+	    name: "DotPortalSync",
+	    script: "C:\\DotPortalSync\\server.js"	
+	});
+
+	svc.on("uninstall", function () {
+    		console.log("Service removed");
+	});
+
+	svc.uninstall();
+////////////////////////////////
+and then into bash
+ "node uninstall.js"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 	 
+//pm2 didnt work
+1. npm install pm2-windows-startup -g
+
+2. pm2 startup install
+
+3. pm2 start server.js --name <process-name>  
+
+4. pm2 save 
+
+5. pm2. list(view processes)
+
+5. pm2 delete <process-name> {To delete process}
