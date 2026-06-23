@@ -1,2 +1,38 @@
 2026-06-18 18:17:37 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\DOT\dot-backend\node_modules\node-windows\lib\wrapper.js --file D:\DOT\dot-backend\server.js --scriptoptions= --log "DotPortalSync wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
 2026-06-18 18:17:37 - Started 2112
+2026-06-21 12:05:52 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\DOT\dot-backend\node_modules\node-windows\lib\wrapper.js --file D:\DOT\dot-backend\server.js --scriptoptions= --log "DotPortalSync wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-06-21 12:05:52 - Started 6100
+2026-06-21 14:20:29 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\DOT\dot-backend\node_modules\node-windows\lib\wrapper.js --file D:\DOT\dot-backend\server.js --scriptoptions= --log "DotPortalSync wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-06-21 14:20:30 - Started 5208
+2026-06-21 14:36:47 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\DOT\dot-backend\node_modules\node-windows\lib\wrapper.js --file D:\DOT\dot-backend\server.js --scriptoptions= --log "DotPortalSync wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-06-21 14:36:47 - Started 5884
+2026-06-21 15:04:20 - Stopping dotportalsync.exe
+2026-06-21 15:04:20 - ProcessKill 5884
+2026-06-21 15:04:20 - Found child process: 5880 Name: conhost.exe
+2026-06-21 15:04:20 - Found child process: 7160 Name: node.exe
+2026-06-21 15:04:20 - Stopping process 5880
+2026-06-21 15:04:20 - Send SIGINT 5880
+2026-06-21 15:04:20 - SIGINT to 5880 failed - Killing as fallback
+2026-06-21 15:04:20 - Stopping process 7160
+2026-06-21 15:04:20 - Send SIGINT 7160
+2026-06-21 15:04:20 - SIGINT to 7160 failed - Killing as fallback
+2026-06-21 15:04:20 - Stopping process 5884
+2026-06-21 15:04:20 - Send SIGINT 5884
+2026-06-21 15:04:20 - SIGINT to 5884 failed - Killing as fallback
+2026-06-21 15:04:20 - Finished dotportalsync.exe
+2026-06-21 15:08:36 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\DOT\dot-backend\node_modules\node-windows\lib\wrapper.js --file D:\DOT\dot-backend\server.js --scriptoptions= --log "DotPortalSync wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-06-21 15:08:36 - Started 10572
+2026-06-21 15:21:54 - Stopping dotportalsync.exe
+2026-06-21 15:21:54 - ProcessKill 10572
+2026-06-21 15:21:55 - Found child process: 7944 Name: conhost.exe
+2026-06-21 15:21:55 - Found child process: 12088 Name: node.exe
+2026-06-21 15:21:55 - Stopping process 7944
+2026-06-21 15:21:55 - Send SIGINT 7944
+2026-06-21 15:21:55 - SIGINT to 7944 failed - Killing as fallback
+2026-06-21 15:21:55 - Stopping process 12088
+2026-06-21 15:21:55 - Send SIGINT 12088
+2026-06-21 15:21:55 - SIGINT to 12088 failed - Killing as fallback
+2026-06-21 15:21:55 - Stopping process 10572
+2026-06-21 15:21:55 - Send SIGINT 10572
+2026-06-21 15:21:55 - SIGINT to 10572 failed - Killing as fallback
+2026-06-21 15:21:55 - Finished dotportalsync.exe

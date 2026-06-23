@@ -46,6 +46,13 @@
 and then into bash
  "node uninstall.js"
 
+if node uninstall dont work 
+	1. open cmd prompt as administrator
+	2. sc query state= all | findstr /I "<Dot>/<service-name>" (to find service)
+	3. sc stop <servicename or servicename.exe>
+	4. sc delete <servicename or servicename.exe>
+
+
 
 
 
